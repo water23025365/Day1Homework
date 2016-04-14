@@ -12,7 +12,7 @@ namespace HomeWork_Day1.Controllers
         public ActionResult Index()
         {
             return View();
-        }
+        } 
         public ActionResult MoneyList()
         {
             var source = new List<MoneyModel>();
